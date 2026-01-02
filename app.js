@@ -44,6 +44,7 @@ form.addEventListener("submit", (event) => {
 
     <a href="${obj.blog}" target="_blank" class="blog">Visit Blog</a>
   </div>`;
+  input.value = ""
     })
 
     .catch((err) => {
