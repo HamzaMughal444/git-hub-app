@@ -142,3 +142,67 @@ button:hover {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 30px 10px;
+  }
+
+  #form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #input {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .card {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px 8px;
+  }
+
+  .card {
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+
+  .avatar img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .company,
+  .location,
+  .bio {
+    font-size: 0.85rem;
+  }
+
+  .stats {
+    gap: 10px;
+  }
+
+  .stats h3 {
+    font-size: 1.1rem;
+  }
+
+  .blog {
+    width: 100%;
+    padding: 12px;
+  }
+}
